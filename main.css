@@ -54,7 +54,7 @@ ul li{
     cursor: pointer;
     transform: rotateY(-30deg) rotateX(30deg);
     position: absolute;
-    
+    transition: transform 1s;
     border-bottom: 4px solid rgba(0,0,0,0.2);
     mix-blend-mode:multiply;
     animation: D 4s linear infinite;
@@ -79,8 +79,10 @@ ul li:nth-child(3){
 }
 
 ul li:hover{
+     
+ 
     transform:rotateY(-20deg) rotateX(7deg) scale(1.04);
-transition: 0.5s;
+ 
 z-index: 3;
 mix-blend-mode: normal;
 }
